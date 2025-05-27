@@ -2,15 +2,20 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --verde: #ff0000;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #525252;
+    --botao-inativo: rgba(121, 121, 121, 0.5);
+    --texto-fundo: rgba(0, 0, 0, 0.582);
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+   
+    background-image: url('img/bruno.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center;
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
